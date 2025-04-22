@@ -1,6 +1,6 @@
 let div = document.getElementById("mascara");
 let resultado = document.getElementById("resultado");
-resultado.className = "uppercase";
+resultado.className = "uppercase mb-[300px]";
 let tipo = document.getElementById("tipo");
 
 //encerrar
