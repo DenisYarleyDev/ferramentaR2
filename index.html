@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="bg-slate-400">
+    <form action="">
+      <input
+        id="tipo"
+        oninput="valor()"
+        list="opcoes"
+        name="item"
+        placeholder="opções"
+        class="bg-slate-300 border-1 border-slate-400 p-1"
+      />
+      <datalist id="opcoes">
+        <option value="encerrar"></option>
+        <option value="repassar"></option>
+        <option value="agendamento"></option>
+      </datalist>
+    </form>
+    <div id="mascara"></div>
+    <div id="resultado" onclick="copy(this)"></div>
+    <script src="./script.js"></script>
+  </body>
+</html>
